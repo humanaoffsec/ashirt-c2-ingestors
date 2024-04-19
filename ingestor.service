@@ -1,0 +1,17 @@
+[Unit]
+Description=Cobalt Strike log ingestor for ASHIRT
+
+[Service]
+Environment="ASHIRT_API=_xXu1..."
+Environment="ASHIRT_SECRET=dWcI..."
+Environment="ASHIRT_LOG_DIR=/opt/cobaltstrike/logs/"
+Environment="ASHIRT_OP_NAME=op-name"
+Environment="ASHIRT_URL=http://localhost:8080"
+User=root
+WorkingDirectory=/opt/ASHIRT-Log-Ingestor/
+ExecStart=/bin/bash -c 'cd /opt/ASHIRT-Log-Ingestor/ && source ./bin/activate && pip install -r ./requirements.txt && python3 <CHANGE - c2-ingestor>.py -p $ASHIRT_LOG_DIR -s $ASHIRT_OP_NAME -a $ASHIRT_URL'
+Restart=always
+RestartSec=3
+
+[Install]
+WantedBy=multi-user.target
